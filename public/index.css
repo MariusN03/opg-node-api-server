@@ -94,6 +94,24 @@ body {
     cursor: pointer;
 }
 
+#endpointM {
+    height: 3rem;
+    background: white;
+    border: 1px solid black;
+    display: grid;
+    align-content: center;
+    padding-left:2rem;
+}
+
+#submitM {
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
 .json {
     width: 100%;
     height: 20vh;

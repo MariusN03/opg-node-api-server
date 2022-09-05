@@ -24,7 +24,7 @@ document.querySelector('#submitD').addEventListener('click', ()=>{
         .then(res => res.json())
             .then(json => document.querySelector('#dinfar .json').innerHTML = JSON.stringify(json))
 })
-document.querySelector('#submitD').addEventListener('click', ()=>{
+document.querySelector('#submitM').addEventListener('click', ()=>{
     fetch('http://10.78.66.27:2650/api/dinmor')
         .then(res => res.json())
             .then(json => document.querySelector('#dinmor .json').innerHTML = JSON.stringify(json))
